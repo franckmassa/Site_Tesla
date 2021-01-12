@@ -1,92 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CDN Bootstrap 4 -->
+    <!-- CDN BOOTSTRAP 4 -->
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
-    <!-- Bootstrap CSS -->
+    <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Site Tesla</title>
 </head>
+
 <body>
-    <!-- ENTETE -->
-<header>
-  
-    <nav>
-      <div class="container bg-dark text-center py-3">
-        <img src="img/tesla_header.png" style="height: 30px"/>
-      </div>
-    </nav>
-    
-  </header>
-  
-  <!-- ICI : jumbotron -->
-  <div style="background: center/cover url('img/tesla_jumbotron.png')" class="jumbotron">
-    <div class="container text-light">
-      <h1 class="display-4">Bienvenue.</h1>
-      <p>Le site Tesla vous permet de commander vos fusées et vos voitures, même lorsque vous êtes dans votre canapé.</p>
-      <h5><span class="badge badge-success">Un conseiller est en ligne.</span></h5>
-    </div> 
-  </div>
-  
-  <!-- PREMIERE SECTION -->
-  <section>
-    
-    <div class="container">
-      
-      <!-- ICI : progress bar-->
-      
-      <!-- ICI : alerte -->
-      <div>
-      Bienvenue sur Tesla. Ce site est en maintenance.
-      <hr>
-        <!-- ICI : les deux boutons -->
-        
-      </div>
-      
-      <nav>
-       <!-- ICI : fil d'ariane -->
-        
-      </nav>
-      
+    <!-- HEADER -->
+    <header>
+
+        <nav>
+            <div class="container bg-dark text-center py-3">
+                <img src="img/tesla_header.png" style="height: 30px" />
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- JUMBOTRON -->
+    <div style="background: center/cover url('img/tesla_jumbotron.png')" class="jumbotron">
+        <div class="container text-light">
+            <h1 class="display-4">Bienvenue.</h1>
+            <p>Le site Tesla vous permet de commander vos fusées et vos voitures, même lorsque vous êtes dans votre
+                canapé.</p>
+            <h5><span class="badge badge-success">Un conseiller est en ligne.</span></h5>
+        </div>
     </div>
-    
-  </section>
-  
-  <!-- DEUXIEME SECTION -->
-  <section>
-    
-    <div class="container">
-      
-      <!-- ICI : les cartes --> 
-      
-      <div>
-        <img src="https://believemy.com/uploads/c7fe8837368024dc01e1845337f167e9_18fb807dabb97a3e4f920d1b0c9176b1.png" alt="...">
-      </div>
-      
-      <div>
-        <img src="https://believemy.com/uploads/c7fe8837368024dc01e1845337f167e9_18fb807dabb97a3e4f920d1b0c9176b1.png" alt="...">
-      </div>
-        
-    </div>
-    
-  </section>
-  
-  <!-- TROISIEME SECTION -->
-  <section>
-    <div style="width: 400px">
-      <h2>Contactez-nous</h2>
-      <!-- ICI : formulaire -->
-    </div>
-  </section>
-  
-  <!-- ICI : pied de page -->
-  
+
+    <!-- SECTION 1 -->
+    <section>
+
+        <div class="container">
+
+            <!-- PROGRESS-BAR-->
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 45%"></div>
+            </div>
+
+            <!-- ALERTE -->
+            <div class="alert alert-primary font-weight-bold text-center">
+                Bienvenue sur Tesla. Ce site est en maintenance.
+                <hr>
+
+                <!-- BUTTONS -->
+                <div class="btn-group">
+                    <a href="#" class="btn btn-danger px-5">Suivre les avancements</a>
+                    <a href="#" class="btn btn-success px-5">Nous contacter</a>
+                </div>
+            </div>
+
+            <!-- BREADCRUMB - FIL D'ARIANE -->
+            <nav arial-label="arial-breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Maintenance</li>
+                </ol>
+            </nav>
+
+        </div>
+
+    </section>
+
+    <!-- SECTION 2 -->
+    <section>
+
+        <div class="container">
+
+            <!-- CARDS -->
+
+            <div>
+                <img src="https://believemy.com/uploads/c7fe8837368024dc01e1845337f167e9_18fb807dabb97a3e4f920d1b0c9176b1.png"
+                    alt="...">
+            </div>
+
+            <div>
+                <img src="https://believemy.com/uploads/c7fe8837368024dc01e1845337f167e9_18fb807dabb97a3e4f920d1b0c9176b1.png"
+                    alt="...">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SECTION 3 -->
+    <section>
+        <div style="width: 400px">
+            <h2>Contactez-nous</h2>
+
+            <!-- FORMULAIRE -->
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
 
 
     <script src="js/jquery.js"></script>
-    <!-- Bootstrap JS -->
+    <!-- BOOTSTRAP JS -->
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
